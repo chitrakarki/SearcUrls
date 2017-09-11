@@ -3,12 +3,11 @@ package com.exam.SearchUrls;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.validator.UrlValidator;
+import org.apache.commons.validator.routines.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-@SuppressWarnings("deprecation")
 public class FindUrls {
 
 	private int urlsFound = 0;
